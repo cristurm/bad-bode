@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: d93b7e8c17ffd364ca759735cafa812e
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: asa_direita
+    100004: asa_direita 1
+    100006: asa_direita 2
+    100008: asa_esquerda
+    100010: asa_esquerda 1
+    100012: asa_esquerda 2
+    100014: asa_pelicula_direita
+    100016: asa_pelicula_direita 1
+    100018: asa_pelicula_direita 2
+    100020: asa_pelicula_esquerda
+    100022: asa_pelicula_esquerda 1
+    100024: asa_pelicula_esquerda 2
+    100026: cabeca
+    100028: corpo
+    100030: FIM
+    100032: FIM 1
+    100034: FIM 2
+    100036: FIM 3
+    100038: FIM 4
+    100040: FIM 5
+    100042: FIM 6
+    100044: mandibula
+    100046: master_morcego
+    100048: maxilar
+    100050: morcego:Sphere01
+    400000: //RootNode
+    400002: asa_direita
+    400004: asa_direita 1
+    400006: asa_direita 2
+    400008: asa_esquerda
+    400010: asa_esquerda 1
+    400012: asa_esquerda 2
+    400014: asa_pelicula_direita
+    400016: asa_pelicula_direita 1
+    400018: asa_pelicula_direita 2
+    400020: asa_pelicula_esquerda
+    400022: asa_pelicula_esquerda 1
+    400024: asa_pelicula_esquerda 2
+    400026: cabeca
+    400028: corpo
+    400030: FIM
+    400032: FIM 1
+    400034: FIM 2
+    400036: FIM 3
+    400038: FIM 4
+    400040: FIM 5
+    400042: FIM 6
+    400044: mandibula
+    400046: master_morcego
+    400048: maxilar
+    400050: morcego:Sphere01
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Sphere01
+    4300002: morcego:Sphere01
+    7400000: Default Take
+    7400002: idle
+    7400004: attack
+    7400006: die
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: morcego:Sphere01
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 9
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: attack
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: die
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

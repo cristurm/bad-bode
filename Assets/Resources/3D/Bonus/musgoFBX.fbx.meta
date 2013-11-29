@@ -1,0 +1,130 @@
+fileFormatVersion: 2
+guid: 47d420a9af67ef24a8059bc71737bae6
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Box001
+    100002: CATRigHub001
+    100004: CATRigLArm1
+    100006: CATRigLArm2
+    100008: CATRigLArmCollarbone
+    100010: CATRigLArmPalm
+    100012: CATRigRArm1
+    100014: CATRigRArm2
+    100016: CATRigRArmCollarbone
+    100018: CATRigRArmPalm
+    100020: CATRigTail1
+    100022: CATRigTail1 1
+    100024: CATRigTail2
+    100026: CATRigTail2 1
+    100028: CATRigTail3
+    100030: CATRigTail3 1
+    100032: CATRigTail4
+    100034: CATRigTail4 1
+    100036: CATRigTail5
+    100038: Character001
+    100040: //RootNode
+    100042: Plane002
+    400000: Box001
+    400002: CATRigHub001
+    400004: CATRigLArm1
+    400006: CATRigLArm2
+    400008: CATRigLArmCollarbone
+    400010: CATRigLArmPalm
+    400012: CATRigRArm1
+    400014: CATRigRArm2
+    400016: CATRigRArmCollarbone
+    400018: CATRigRArmPalm
+    400020: CATRigTail1
+    400022: CATRigTail1 1
+    400024: CATRigTail2
+    400026: CATRigTail2 1
+    400028: CATRigTail3
+    400030: CATRigTail3 1
+    400032: CATRigTail4
+    400034: CATRigTail4 1
+    400036: CATRigTail5
+    400038: Character001
+    400040: //RootNode
+    400042: Plane002
+    2300000: Box001
+    3300000: Box001
+    4300000: Plane002
+    4300002: Box001
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Plane002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0399999991
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 
