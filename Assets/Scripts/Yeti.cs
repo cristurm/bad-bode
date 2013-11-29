@@ -59,7 +59,7 @@ public class Yeti : MonoBehaviour {
 			
 			Vector3 dir1 = transform.TransformDirection(Vector3.right);
 			Vector3 dir2 = transform.TransformDirection(Vector3.left);
-			Vector3 pos = new Vector3(transform.position.x,transform.position.y - 0.4f,transform.position.z);
+			Vector3 pos = new Vector3(transform.position.x,transform.position.y - 0.3f,transform.position.z);
 			Physics.Raycast(pos, dir1, out rayHit1, sightDistance, playerLayer.value);
 			Physics.Raycast(pos, dir2, out rayHit2, sightDistance, playerLayer.value);
 			

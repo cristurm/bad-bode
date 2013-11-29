@@ -113,6 +113,8 @@ public class StoneJonesController : MonoBehaviour {
 		}
 		
 		if (timer > timeOfWarning) {
+			ResetFallingRocks();
+			
 			timer = 0;
 			stoneStatus = stoneStatuses.falling;
 		}

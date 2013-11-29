@@ -1,17 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ContentGenerator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlatLoader.cs">
     <Files>
-      <File FileName="Assets\Scripts\StoneJonesController.cs" Line="115" Column="31" />
-      <File FileName="Assets\Scripts\PlatLoader.cs" Line="130" Column="1" />
+      <File FileName="Assets\Scripts\PlatLoader.cs" Line="94" Column="10" />
       <File FileName="Assets\Scripts\BadBode.cs" Line="11" Column="17" />
       <File FileName="Assets\Scripts\Pause.cs" Line="20" Column="17" />
       <File FileName="Assets\Scripts\CamView.cs" Line="16" Column="3" />
-      <File FileName="Assets\Scripts\DragShotMover.cs" Line="91" Column="90" />
-      <File FileName="Assets\Scripts\ContentGenerator.cs" Line="29" Column="62" />
+      <File FileName="Assets\Scripts\DragShotMover.cs" Line="90" Column="28" />
+      <File FileName="Assets\Scripts\ContentGenerator.cs" Line="24" Column="4" />
       <File FileName="Assets\Scripts\Moss.cs" Line="27" Column="27" />
-      <File FileName="Assets\Scripts\Yeti.cs" Line="62" Column="77" />
-      <File FileName="Assets\Scripts\Bode.cs" Line="124" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

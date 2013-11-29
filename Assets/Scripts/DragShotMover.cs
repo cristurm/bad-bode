@@ -32,7 +32,7 @@ public class DragShotMover : MonoBehaviour {
 		Time.timeScale = 1.0F; //volta ao normal
 		player = GameObject.FindWithTag("Player");
 		gameCam = GameObject.FindWithTag("MainCamera");
-		
+
 		// create the dragplane
 		dragPlane = new Plane(dragPlaneNormal, transform.position);
 	}
@@ -83,27 +83,17 @@ public class DragShotMover : MonoBehaviour {
 			}
 		}
 		
-		
-		
-	}
-	void OnCollisionStay(Collision what)	{
 		//resetar o movementStatus para jump0 quando o bode estiver parado - correção de bug com pulo para baixo
-		if(what.transform.name != "BadBodeAreacolisor" || what.transform.name != "StoneJones"){
-			Vector3 contact = what.contacts[0].normal;
-			if (contact.y > 0.5f) {
-				if(movementStatus != moveStatus.jump0){
-					timerReset += Time.deltaTime;
-					if (timerReset > 0.3f) {
-						//////////animation//////////
-						transform.GetComponent<BadBodeAnimationandSound>().Idle();
-						//////////animation//////////
-						
-						movementStatus = moveStatus.jump0;
-						timerReset = 0;
-					}
-				}else{
-					timerReset = 0;
-				}
+		if (transform.rigidbody.velocity == new Vector3(0,0,0) && movementStatus != moveStatus.jump0) {			
+			timerReset += Time.deltaTime;
+			
+			if (timerReset > 0.3f) {
+				//////////animation//////////
+				transform.GetComponent<BadBodeAnimationandSound>().Idle();
+				//////////animation//////////
+				
+				movementStatus = moveStatus.jump0;
+				timerReset = 0;
 			}
 		}
 	}

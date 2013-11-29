@@ -121,7 +121,7 @@ public class Bode : MonoBehaviour {
 		if (player != null && what.gameObject == player && (player.GetComponent<DragShotMover>().GetActualForce() > 9.0f || player.GetComponent<DragShotMover>().GetActualForce() < -9.0f)) {
 			died = true;
 			transform.GetComponentInChildren<Animation>().Play("die");
-			transform.GetComponent<BoxCollider>().isTrigger = true;
+			transform.GetComponent<CapsuleCollider>().isTrigger = true;
 			audio.PlayOneShot(die);
 			Destroy(transform.gameObject, 2f);
 		}
