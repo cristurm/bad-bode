@@ -1,0 +1,73 @@
+body {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+a {color: #bfbfbf;}
+
+.repo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: black;
+  background: #bfbfbf;
+  padding: 6px 6px;
+  outline: none;
+}
+
+.repo i {
+  float: left;
+  cursor: pointer;
+
+}
+
+.repo span {
+  float: left;
+  padding-left: 0;
+  line-height: 32px;
+  overflow: hidden;
+  width: 0;
+  max-width: 0;
+  white-space: nowrap;
+  transition: max-width 1s;
+}
+
+.repo:hover span {
+  padding-left: 6px;
+  width: auto;
+  max-width: 200px;
+}
+
+.content {
+  margin: auto;
+  width: 800px;
+}
+
+.broken, .missing {
+  margin: auto;
+  position: relative;
+  top: 50%;
+  width: 193px;
+}
+
+.broken a, .missing a {
+  height: 63px;
+  position: relative;
+  top: -31px;
+}
+
+.broken img, .missing img {
+  border-width: 0px;
+}
+
+.broken {
+  display: none;
+}
+
+#unityPlayer {
+  cursor: default;
+  height: 600px;
+  width: 800px;
+}
